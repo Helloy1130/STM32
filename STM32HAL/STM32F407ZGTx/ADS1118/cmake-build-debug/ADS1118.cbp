@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ADS1118"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADS1118.elf">
+				<Option output="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/ADS1118.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Inc"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/LCD"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/ADS1118"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADS1118.elf"/>
+					<CompileFile command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADS1118.elf/fast">
+				<Option output="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/ADS1118.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Inc"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/LCD"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/ADS1118"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config"/>
+					<Add directory="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADS1118.elf/fast"/>
+					<CompileFile command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/CodeBlocks17.12/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/DSP/Include/arm_math.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/CMSIS/Lib/GCC/libarm_cortexM4lf_math.a">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STM32F407ZGTx_FLASH.ld">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/GUIConf.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/GUIConf.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/GUIDRV_Template.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/GUIDRV_Template.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/GUI_X_Touch_Analog.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/LCDConf.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/LCDConf_FlexColor_Template.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Config/LCDConf_FlexColor_Template.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/Lib/libSTemWin_CM4_wc32.a">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/OS/GUI_X.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/BUTTON.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/BUTTON_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/CALENDAR.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/CHECKBOX.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/CHECKBOX_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/CHOOSECOLOR.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/CHOOSEFILE.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/DIALOG.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/DIALOG_Intern.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/DROPDOWN.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/DROPDOWN_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/EDIT.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/EDIT_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/FRAMEWIN.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/FRAMEWIN_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GRAPH.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GRAPH_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_DCache.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_DCache_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Dist.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_FlexColor.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_FlexColor_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin_Opt_16.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin_Opt_24.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin_Opt_32.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin_Opt_8.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Lin_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_NoOpt_1_8.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_Template.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_TemplateI.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIDRV_TemplateI_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUIMTDRV_TangoC32.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUITDRV_ADS7846.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_ARRAY.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_ARRAY_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_BMP_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_ConfDefaults.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_Debug.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_FontIntern.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_GCache_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_GIF_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_HOOK.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_JPEG_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_SIM_Win32.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_SPRITE_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_SetOrientation.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_SetOrientationCX.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_Type.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_VNC.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI_Version.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI__BiDi2_Brackets_800.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/GUI__BiDi2_Types_800.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/Global.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/HEADER.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/HEADER_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/ICONVIEW.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/ICONVIEW_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/IMAGE.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/IMAGE_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/IP_FS.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/KNOB.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/KNOB_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LCD.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LCD_ConfDefaults.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LCD_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LCD_Protected.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LCD_SIM.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTBOX.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTBOX_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTVIEW.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTVIEW_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTWHEEL.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/LISTWHEEL_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MENU.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MENU_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MESSAGEBOX.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MULTIEDIT.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MULTIPAGE.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/MULTIPAGE_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/PROGBAR.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/PROGBAR_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/RADIO.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/RADIO_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SCROLLBAR.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SCROLLBAR_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SEGGER.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SLIDER.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SLIDER_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SPINBOX.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SPINBOX_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SWIPELIST.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/SWIPELIST_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/TEXT.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/TEXT_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/TREEVIEW.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/TREEVIEW_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/WIDGET.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/WINDOW_Private.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/WM.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/WM_GUI.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/STemWin_544/inc/WM_Intern.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX/24cxx.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX/24cxx.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX/myiic.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/24CXX/myiic.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/ADS1118/ads1118.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/ADS1118/ads1118.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/LCD/ILI93xx.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/LCD/ILI93xx.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/LCD/font.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/ctiic.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/ctiic.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/gt9147.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/gt9147.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/touch.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/TOUCH/touch.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/delay.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/delay.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/emwinDemo.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/emwinDemo.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/retarget.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/User/retarget.h">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/crc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/fsmc.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/gpio.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/main.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/spi.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/stm32f4xx_hal_msp.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/stm32f4xx_it.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/syscalls.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/system_stm32f4xx.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/tim.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/Src/usart.c">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/startup/startup_stm32f407xx.s">
+			<Option target="ADS1118.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/MCU/STM32HAL/STM32F4_CLion/ADS1118/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

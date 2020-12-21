@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD ZJA003_Project" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ZJA003_Project" TARGET_NAME="ZJA003_Project.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ZJA003_Project" RUN_TARGET_NAME="ZJA003_Project.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="D:\Projects\MCU\STM32HAL\STM32F4_CLion\ZJA003_Project\stm32f4discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

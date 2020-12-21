@@ -1,0 +1,3 @@
+E:/Projects/MCU/STM32HAL/STM32F103C8Tx/WuhuFly_1/cmake-build-debug/CMakeFiles/WuhuFly_1.elf.dir
+E:/Projects/MCU/STM32HAL/STM32F103C8Tx/WuhuFly_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Projects/MCU/STM32HAL/STM32F103C8Tx/WuhuFly_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

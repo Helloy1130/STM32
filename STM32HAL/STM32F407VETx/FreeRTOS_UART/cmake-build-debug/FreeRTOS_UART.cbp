@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FreeRTOS_UART"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS_UART.elf">
+				<Option output="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/FreeRTOS_UART.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/Basic"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/LED"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/DigitalTube"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS_UART.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS_UART.elf/fast">
+				<Option output="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/FreeRTOS_UART.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/Basic"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/LED"/>
+					<Add directory="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/DigitalTube"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS_UART.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/FreeRTOSConfig.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/dma.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/gpio.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/main.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/stm32f4xx_it.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/tim.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Inc/usart.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/dma.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/freertos.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/gpio.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/main.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/stm32f4xx_it.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/syscalls.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/system_stm32f4xx.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/tim.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/Src/usart.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/Basic/retarget.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/Basic/retarget.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/DigitalTube/DigitalTube.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/DigitalTube/DigitalTube.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/LED/LED.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Core/User/LED/LED.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/STM32F407VETx_FLASH.ld">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/startup/startup_stm32f407xx.s">
+			<Option target="FreeRTOS_UART.elf"/>
+		</Unit>
+		<Unit filename="E:/Projects/MCU/STM32HAL/STM32F407VETx/FreeRTOS_UART/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

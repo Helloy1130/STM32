@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files/STMicroelectronics/STM32Cube/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/STMicroelectronics/STM32Cube/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" E:\Projects\MCU\STM32HAL\STM32F407VETx\Flash_FatFs
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Projects/MCU/STM32HAL/STM32F407VETx/Flash_FatFs/cmake-build-debug

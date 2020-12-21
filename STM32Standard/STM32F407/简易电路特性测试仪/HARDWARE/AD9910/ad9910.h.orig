@@ -1,0 +1,34 @@
+#ifndef _AD9910_H
+#define _AD9910_H
+#include "sys.h"
+
+//新增IO
+//#define PDCLK PCout(6)//PDCLK
+//#define PLL_LOCK PCout(7)//悬空
+//#define SYNC_CLK PCout(9)//悬空
+//#define TXENABLE PCout(11)//TXEN
+//#define RSO PCout(12)//RAM-SWP-OVR
+
+#define AD9910_PWR PCout(12)//0
+//原始IO
+#define SCLK        PCout(6)
+#define CS          PCout(7)
+#define SDO        	PCout(8)//SDIO
+
+#define MASTRST    	PCout(9)
+#define UP_DAT      PAout(8)
+
+#define DRHOLD      PCout(10)
+#define DRCTL       PCout(11)
+//#define OSK         PDout(2)
+//#define DROVER      PDout(3)
+
+#define PROFILE0    PAout(13)
+#define PROFILE1    PAout(14)
+#define PROFILE2    PAout(15)
+
+void AD9910_Init(void);
+void Freq_convert(u32 Freq);									
+//void Write_Amplitude(bit Channel,unsigned int Amplitude);	
+
+#endif

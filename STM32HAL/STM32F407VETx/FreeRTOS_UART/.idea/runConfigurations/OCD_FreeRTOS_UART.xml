@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD FreeRTOS_UART" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FreeRTOS_UART" TARGET_NAME="FreeRTOS_UART.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FreeRTOS_UART" RUN_TARGET_NAME="FreeRTOS_UART.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="E:\Projects\MCU\STM32HAL\STM32F407VETx\FreeRTOS_UART\User_STM32F407VETx.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

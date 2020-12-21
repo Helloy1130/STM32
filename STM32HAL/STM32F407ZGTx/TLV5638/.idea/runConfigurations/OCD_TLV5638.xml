@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD TLV5638" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TLV5638" TARGET_NAME="TLV5638.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TLV5638" RUN_TARGET_NAME="TLV5638.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="D:\Projects\MCU\STM32HAL\STM32F4_CLion\TLV5638\stm32f4discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

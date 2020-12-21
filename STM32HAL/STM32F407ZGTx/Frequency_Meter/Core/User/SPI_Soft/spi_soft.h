@@ -1,0 +1,19 @@
+//
+// Created by Y on 2020/10/26.
+//
+
+#ifndef FREQUENCY_METER_SPI_SOFT_H
+#define FREQUENCY_METER_SPI_SOFT_H
+
+#include "main.h"
+
+//Èí¼þSPI
+#define SOFT_SPI_SCK_HIGH       HAL_GPIO_WritePin(SOFT_SPI_SCK_GPIO_Port,SOFT_SPI_SCK_Pin,GPIO_PIN_SET)
+#define SOFT_SPI_SCK_LOW        HAL_GPIO_WritePin(SOFT_SPI_SCK_GPIO_Port,SOFT_SPI_SCK_Pin,GPIO_PIN_RESET)
+#define SOFT_SPI_CS_HIGH        HAL_GPIO_WritePin(SOFT_SPI_CS_GPIO_Port,SOFT_SPI_CS_Pin,GPIO_PIN_SET)
+#define SOFT_SPI_CS_LOW         HAL_GPIO_WritePin(SOFT_SPI_CS_GPIO_Port,SOFT_SPI_CS_Pin,GPIO_PIN_RESET)
+#define SOFT_SPI_MISO           HAL_GPIO_ReadPin(SOFT_SPI_MISO_GPIO_Port,SOFT_SPI_MISO_Pin)
+
+uint8_t Soft_SPI_Read_Byte(void);
+
+#endif //FREQUENCY_METER_SPI_SOFT_H

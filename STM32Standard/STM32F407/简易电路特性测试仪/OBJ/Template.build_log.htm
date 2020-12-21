@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Y Y, Y, LIC=FQQQD-8NG8C-LV31I-T7WJN-8KHDL-V3BC9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.29.0.0
+Toolchain Path:  D:\Program Files (x86)\MDK5\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\Projects\MCU\STM32F407\简易电路特性测试仪\USER\Template.uvprojx
+Project File Date:  05/20/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Program Files (x86)\MDK5\MDK5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling ad9959.c...
+..\HARDWARE\AD9959\ad9959.c(27): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+  	RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOA|RCC_APB2Periph_GPIOC|
+..\HARDWARE\AD9959\ad9959.c(27): error:  #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+  	RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOA|RCC_APB2Periph_GPIOC|
+..\HARDWARE\AD9959\ad9959.c(28): error:  #20: identifier "RCC_APB2Periph_GPIOD" is undefined
+  							RCC_APB2Periph_GPIOD|RCC_APB2Periph_GPIOG, ENABLE);	 //PA,PC,PD,PG端口时钟使能
+..\HARDWARE\AD9959\ad9959.c(28): error:  #20: identifier "RCC_APB2Periph_GPIOG" is undefined
+  							RCC_APB2Periph_GPIOD|RCC_APB2Periph_GPIOG, ENABLE);	 //PA,PC,PD,PG端口时钟使能
+..\HARDWARE\AD9959\ad9959.c(31): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
+..\HARDWARE\AD9959\ad9959.c(57): error:  #20: identifier "SinFre" is undefined
+  	Write_frequence(3,SinFre[3]);
+..\HARDWARE\AD9959\ad9959.c(67): error:  #20: identifier "SinPhr" is undefined
+  	Write_Phase(3, SinPhr[3]);
+..\HARDWARE\AD9959\ad9959.c(72): error:  #20: identifier "SinAmp" is undefined
+  	Write_Amplitude(3, SinAmp[3]);
+..\HARDWARE\AD9959\ad9959.c(87): error:  #20: identifier "CS" is undefined
+      CS = 1;
+..\HARDWARE\AD9959\ad9959.c(88): error:  #20: identifier "SCLK" is undefined
+      SCLK = 0;
+..\HARDWARE\AD9959\ad9959.c(89): error:  #20: identifier "UPDATE" is undefined
+      UPDATE = 0;
+..\HARDWARE\AD9959\ad9959.c(90): error:  #20: identifier "PS0" is undefined
+      PS0 = 0;
+..\HARDWARE\AD9959\ad9959.c(91): error:  #20: identifier "PS1" is undefined
+      PS1 = 0;
+..\HARDWARE\AD9959\ad9959.c(92): error:  #20: identifier "PS2" is undefined
+      PS2 = 0;
+..\HARDWARE\AD9959\ad9959.c(93): error:  #20: identifier "PS3" is undefined
+      PS3 = 0;
+..\HARDWARE\AD9959\ad9959.c(94): error:  #20: identifier "SDIO0" is undefined
+      SDIO0 = 0;
+..\HARDWARE\AD9959\ad9959.c(95): error:  #20: identifier "SDIO1" is undefined
+      SDIO1 = 0;
+..\HARDWARE\AD9959\ad9959.c(96): error:  #20: identifier "SDIO2" is undefined
+      SDIO2 = 0;
+..\HARDWARE\AD9959\ad9959.c(97): error:  #20: identifier "SDIO3" is undefined
+      SDIO3 = 0;
+..\HARDWARE\AD9959\ad9959.c(102): error:  #20: identifier "Reset" is undefined
+    Reset = 0;
+..\HARDWARE\AD9959\ad9959.c(111): error:  #20: identifier "UPDATE" is undefined
+  	UPDATE = 0;
+..\HARDWARE\AD9959\ad9959.c(133): error:  #20: identifier "SCLK" is undefined
+  	SCLK = 0;
+..\HARDWARE\AD9959\ad9959.c(134): error:  #20: identifier "CS" is undefined
+  	CS = 0;	 
+..\HARDWARE\AD9959\ad9959.c(139): error:  #20: identifier "SDIO0" is undefined
+  		SDIO0= 1;	  
+..\HARDWARE\AD9959\ad9959.c(154): error:  #20: identifier "SDIO0" is undefined
+  			SDIO0= 1;	  
+..\HARDWARE\AD9959\ad9959.c: 0 warnings, 25 errors
+"..\OBJ\Template.axf" - 25 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil.STM32F4xx_DFP.1.0.8
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Template
+  D:\Program Files (x86)\MDK5\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

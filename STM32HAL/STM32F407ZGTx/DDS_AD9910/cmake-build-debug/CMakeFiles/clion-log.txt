@@ -1,0 +1,5 @@
+"D:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Projects\MCU\STM32HAL\STM32F4_CLion\DDS_AD9910
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Projects/MCU/STM32HAL/STM32F4_CLion/DDS_AD9910/cmake-build-debug

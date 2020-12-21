@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OCD EXTI_KEY" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EXTI_KEY" TARGET_NAME="EXTI_KEY.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EXTI_KEY" RUN_TARGET_NAME="EXTI_KEY.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="D:\Projects\MCU\STM32HAL\STM32F4_CLion\EXTI_KEY\stm32f4discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

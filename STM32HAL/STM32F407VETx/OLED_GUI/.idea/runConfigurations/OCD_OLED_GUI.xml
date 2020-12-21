@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD OLED_GUI" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OLED_GUI" TARGET_NAME="OLED_GUI.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OLED_GUI" RUN_TARGET_NAME="OLED_GUI.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="E:\Projects\MCU\STM32HAL\STM32F407VETx\OLED_GUI\User_STM32F407VETx.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

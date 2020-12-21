@@ -1,0 +1,15 @@
+//
+// Created by Y on 2020/10/4.
+//
+
+#ifndef ADS1118_LMT70_ADS1118_H
+#define ADS1118_LMT70_ADS1118_H
+
+#include "main.h"
+
+#define ADS1118_CS_HIGH		HAL_GPIO_WritePin(ADS1118_CS_GPIO_Port, ADS1118_CS_Pin,GPIO_PIN_SET)
+#define ADS1118_CS_LOW		HAL_GPIO_WritePin(ADS1118_CS_GPIO_Port, ADS1118_CS_Pin,GPIO_PIN_RESET)
+
+uint16_t SPI_RW_Reg(uint16_t CofigReg);
+
+#endif //ADS1118_LMT70_ADS1118_H
