@@ -23,6 +23,8 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usart.h"
+#include "cmsis_os.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -42,7 +44,9 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-
+uint8_t rx1_buf[MAX_RECV_LEN];
+uint8_t *pBuf = rx1_buf;
+uint32_t recv_tick = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -56,10 +60,11 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern UART_HandleTypeDef huart1;
 extern TIM_HandleTypeDef htim14;
 
 /* USER CODE BEGIN EV */
-
+extern uint32_t update_tick;
 /* USER CODE END EV */
 
 /******************************************************************************/
@@ -161,6 +166,20 @@ void DebugMon_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles USART1 global interrupt.
+  */
+void USART1_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART1_IRQn 0 */
+
+  /* USER CODE END USART1_IRQn 0 */
+  HAL_UART_IRQHandler(&huart1);
+  /* USER CODE BEGIN USART1_IRQn 1 */
+
+  /* USER CODE END USART1_IRQn 1 */
+}
+
+/**
   * @brief This function handles TIM8 trigger and commutation interrupts and TIM14 global interrupt.
   */
 void TIM8_TRG_COM_TIM14_IRQHandler(void)
@@ -175,6 +194,21 @@ void TIM8_TRG_COM_TIM14_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if(huart == (&huart1))
+    {
+        ++pBuf; //已接收一个字节数据，当前存储位置指针后移
+        if(pBuf == rx1_buf + MAX_RECV_LEN) { // 如果指针已移出数组边界
+            pBuf = rx1_buf;                // 重新指向数组开头
+        }
 
+        recv_tick = osKernelGetTickCount();
+        update_tick = recv_tick;
+
+        __HAL_UNLOCK(huart); // 解锁串口
+        HAL_UART_Receive_IT(huart, pBuf, 1); // 重新开启接收中断
+    }
+}
 /* USER CODE END 1 */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

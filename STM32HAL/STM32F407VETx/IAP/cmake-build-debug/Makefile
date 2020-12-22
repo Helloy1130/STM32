@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\MCU\STM32HAL\STM32F407VETx\IAP
+CMAKE_SOURCE_DIR = E:\Projects\STM32\STM32HAL\STM32F407VETx\IAP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\MCU\STM32HAL\STM32F407VETx\IAP\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Projects\STM32\STM32HAL\STM32F407VETx\IAP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\MCU\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles E:\Projects\MCU\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\STM32\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles E:\Projects\STM32\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\MCU\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\STM32\STM32HAL\STM32F407VETx\IAP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -420,33 +420,6 @@ Core/Startup/startup_stm32f407vetx.obj: Core/Startup/startup_stm32f407vetx.s.obj
 Core/Startup/startup_stm32f407vetx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IAP.elf.dir\build.make CMakeFiles/IAP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
 .PHONY : Core/Startup/startup_stm32f407vetx.s.obj
-
-Core/User/DigitalTube/DigitalTube.obj: Core/User/DigitalTube/DigitalTube.c.obj
-
-.PHONY : Core/User/DigitalTube/DigitalTube.obj
-
-# target to build an object file
-Core/User/DigitalTube/DigitalTube.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IAP.elf.dir\build.make CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj
-.PHONY : Core/User/DigitalTube/DigitalTube.c.obj
-
-Core/User/DigitalTube/DigitalTube.i: Core/User/DigitalTube/DigitalTube.c.i
-
-.PHONY : Core/User/DigitalTube/DigitalTube.i
-
-# target to preprocess a source file
-Core/User/DigitalTube/DigitalTube.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IAP.elf.dir\build.make CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.i
-.PHONY : Core/User/DigitalTube/DigitalTube.c.i
-
-Core/User/DigitalTube/DigitalTube.s: Core/User/DigitalTube/DigitalTube.c.s
-
-.PHONY : Core/User/DigitalTube/DigitalTube.s
-
-# target to generate assembly for a file
-Core/User/DigitalTube/DigitalTube.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IAP.elf.dir\build.make CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.s
-.PHONY : Core/User/DigitalTube/DigitalTube.c.s
 
 Core/User/InFlash/InFlash.obj: Core/User/InFlash/InFlash.c.obj
 
@@ -1244,9 +1217,6 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f407vetx.obj
-	@echo ... Core/User/DigitalTube/DigitalTube.obj
-	@echo ... Core/User/DigitalTube/DigitalTube.i
-	@echo ... Core/User/DigitalTube/DigitalTube.s
 	@echo ... Core/User/InFlash/InFlash.obj
 	@echo ... Core/User/InFlash/InFlash.i
 	@echo ... Core/User/InFlash/InFlash.s

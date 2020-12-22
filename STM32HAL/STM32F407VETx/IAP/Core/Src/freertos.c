@@ -26,11 +26,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdbool.h>
 #include <stdio.h>
 #include "LED.h"
 #include "InFlash.h"
-#include "DigitalTube.h"
+#include "usart.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,7 +39,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define USER_APP_ADDR ADDR_FLASH_SECTOR_5
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,8 +49,11 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-uint8_t led_speed = 1;//1-10
-uint32_t led_control_time = 100;
+extern uint32_t recv_tick;
+extern uint8_t rx1_buf[MAX_RECV_LEN];
+extern uint8_t *pBuf;
+
+uint32_t update_tick = 0;
 /* USER CODE END Variables */
 /* Definitions for LedTask */
 osThreadId_t LedTaskHandle;
@@ -67,10 +69,10 @@ const osThreadAttr_t KeyTask_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 256 * 4
 };
-/* Definitions for DigitaTubeTask */
-osThreadId_t DigitaTubeTaskHandle;
-const osThreadAttr_t DigitaTubeTask_attributes = {
-  .name = "DigitaTubeTask",
+/* Definitions for UartTask */
+osThreadId_t UartTaskHandle;
+const osThreadAttr_t UartTask_attributes = {
+  .name = "UartTask",
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 256 * 4
 };
@@ -82,7 +84,7 @@ const osThreadAttr_t DigitaTubeTask_attributes = {
 
 void StartLedTask(void *argument);
 void StartKeyTask(void *argument);
-void StartDigitaTubeTask(void *argument);
+void StartUartTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -119,8 +121,8 @@ void MX_FREERTOS_Init(void) {
   /* creation of KeyTask */
   KeyTaskHandle = osThreadNew(StartKeyTask, NULL, &KeyTask_attributes);
 
-  /* creation of DigitaTubeTask */
-  DigitaTubeTaskHandle = osThreadNew(StartDigitaTubeTask, NULL, &DigitaTubeTask_attributes);
+  /* creation of UartTask */
+  UartTaskHandle = osThreadNew(StartUartTask, NULL, &UartTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -143,26 +145,16 @@ void StartLedTask(void *argument)
 {
   /* USER CODE BEGIN StartLedTask */
     uint8_t led_id = 1;
-
-    osDelay(100);
-    //读取FLASH地址保存的speed参数
-    ReadFlash((uint8_t *) ADDR_FLASH_SECTOR_5, &led_speed, sizeof(led_speed));
-    if (led_speed > 10) {
-        led_speed = 1;
-    }
     /* Infinite loop */
     for (;;) {
-            led_control_time = 220 - led_speed * 20;
-            turnoffLED();
-            selectLED(led_id);
-            if (led_id == 8) {
-                led_id = 1;
-            } else {
-                led_id++;
-            }
-            osDelay(led_control_time);
-            osDelay(1);
-
+        turnoffLED();
+        selectLED(led_id);
+        if (led_id == 8) {
+            led_id = 1;
+        } else {
+            led_id++;
+        }
+        osDelay(50);
     }
   /* USER CODE END StartLedTask */
 }
@@ -178,6 +170,9 @@ void StartKeyTask(void *argument)
 {
   /* USER CODE BEGIN StartKeyTask */
     uint8_t key_state;
+
+//    HAL_Delay(100);
+//    printf("\r\nBootloader... Press K5 to update app.\r\n");
     /* Infinite loop */
     for (;;) {
         //扫描按键
@@ -238,29 +233,19 @@ void StartKeyTask(void *argument)
                 JumpAPP(ADDR_FLASH_SECTOR_6);//跳转到0x08040000执行
                 break;
 
-            case 2://减速
-                if (led_speed <= 1) {
-                    led_speed = 10;
-                } else {
-                    led_speed--;
-                }
-                //写入led_speed参数到FLASH地址
-                WriteFlash(&led_speed, (uint8_t *) ADDR_FLASH_SECTOR_5, sizeof(led_speed));
+            case 2:
                 break;
 
-            case 3://加速
-                if (led_speed >= 10) {
-                    led_speed = 1;
-                } else {
-                    led_speed++;
-                }
-                WriteFlash(&led_speed, (uint8_t *) ADDR_FLASH_SECTOR_5, sizeof(led_speed));
+            case 3:
                 break;
 
             case 4:
                 break;
 
-            case 5:
+            case 5://开始更新
+                HAL_UART_Receive_IT(&huart1, pBuf, 1);
+                update_tick = osKernelGetTickCount();
+                printf("Start receive bin file.\r\n");
                 break;
 
             case 6:
@@ -274,27 +259,39 @@ void StartKeyTask(void *argument)
   /* USER CODE END StartKeyTask */
 }
 
-/* USER CODE BEGIN Header_StartDigitaTubeTask */
+/* USER CODE BEGIN Header_StartUartTask */
 /**
-* @brief Function implementing the DigitaTubeTask thread.
+* @brief Function implementing the UartTask thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartDigitaTubeTask */
-void StartDigitaTubeTask(void *argument)
+/* USER CODE END Header_StartUartTask */
+void StartUartTask(void *argument)
 {
-  /* USER CODE BEGIN StartDigitaTubeTask */
-    uint8_t seg[4] = {0};
+  /* USER CODE BEGIN StartUartTask */
+
     /* Infinite loop */
     for (;;) {
-        seg[3] = led_speed % 10;
-        seg[2] = led_speed / 10;
-        for (int i = 0; i < 4; ++i) {
-            Write595(i,seg[i],0);
-            osDelay(5);
+        if (recv_tick > 0 && osKernelGetTickCount() - recv_tick >= 500) {
+            recv_tick = 0;
+            pBuf = rx1_buf;
+
+            HAL_UART_AbortReceive_IT(&huart1);
+            printf("Receive end.\r\n");
+
+            //写入APP
+
         }
+
+        if (update_tick > 0 && osKernelGetTickCount() - update_tick >= 10 * 1000){
+            update_tick = 0;
+
+            HAL_UART_AbortReceive_IT(&huart1);
+            printf("Exit update mode after 10 seconds.\r\n");
+        }
+        osDelay(1);
     }
-  /* USER CODE END StartDigitaTubeTask */
+  /* USER CODE END StartUartTask */
 }
 
 /* Private application code --------------------------------------------------*/

@@ -10,7 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/IAP.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/IAP.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/IAP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj"
-  "CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj"
   "CMakeFiles/IAP.elf.dir/Core/User/InFlash/InFlash.c.obj"
   "CMakeFiles/IAP.elf.dir/Core/User/LED/LED.c.obj"
   "CMakeFiles/IAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"

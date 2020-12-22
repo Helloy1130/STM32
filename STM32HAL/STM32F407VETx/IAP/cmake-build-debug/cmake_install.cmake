@@ -1,4 +1,4 @@
-# Install script for directory: E:/Projects/MCU/STM32HAL/STM32F407VETx/IAP
+# Install script for directory: E:/Projects/STM32/STM32HAL/STM32F407VETx/IAP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Projects/MCU/STM32HAL/STM32F407VETx/IAP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Projects/STM32/STM32HAL/STM32F407VETx/IAP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

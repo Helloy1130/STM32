@@ -6,7 +6,7 @@ CMakeFiles/IAP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj: ../Core/Startup
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/Inc/FreeRTOSConfig.h
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/Inc/main.h
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
-CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/User/DigitalTube/DigitalTube.h
+CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/Inc/usart.h
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/User/InFlash/InFlash.h
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Core/User/LED/LED.h
 CMakeFiles/IAP.elf.dir/Core/Src/freertos.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
@@ -200,9 +200,11 @@ CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Drivers/STM
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
 
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Inc/FreeRTOSConfig.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Inc/main.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Inc/stm32f4xx_it.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Inc/usart.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -233,6 +235,16 @@ CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Dri
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
 CMakeFiles/IAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 
 CMakeFiles/IAP.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
@@ -306,41 +318,6 @@ CMakeFiles/IAP.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc
 CMakeFiles/IAP.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/IAP.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/IAP.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Core/Inc/main.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Core/User/DigitalTube/DigitalTube.c
-CMakeFiles/IAP.elf.dir/Core/User/DigitalTube/DigitalTube.c.obj: ../Core/User/DigitalTube/DigitalTube.h
 
 CMakeFiles/IAP.elf.dir/Core/User/InFlash/InFlash.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
 CMakeFiles/IAP.elf.dir/Core/User/InFlash/InFlash.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h

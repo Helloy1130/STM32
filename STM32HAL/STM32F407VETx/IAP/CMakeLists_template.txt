@@ -52,7 +52,7 @@ add_definitions(${defines})
 file(GLOB_RECURSE SOURCES ${sources})
 
 #User
-include_directories(Core/User/LED Core/User/DigitalTube Core/User/InFlash)
+include_directories(Core/User/LED Core/User/InFlash)
 
 set(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})
 

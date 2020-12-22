@@ -53,7 +53,7 @@ add_definitions(-DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx)
 file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
 
 #User
-include_directories(Core/User/LED Core/User/DigitalTube Core/User/InFlash)
+include_directories(Core/User/LED Core/User/InFlash)
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407VETX_FLASH.ld)
 
