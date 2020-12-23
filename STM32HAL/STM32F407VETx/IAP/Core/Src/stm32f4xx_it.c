@@ -203,8 +203,10 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             pBuf = rx1_buf;                // 重新指向数组开头
         }
 
-        recv_tick = osKernelGetTickCount();
-        update_tick = recv_tick;
+        if (update_tick > 0){
+            recv_tick = osKernelGetTickCount();
+            update_tick = recv_tick;
+        }
 
         __HAL_UNLOCK(huart); // 解锁串口
         HAL_UART_Receive_IT(huart, pBuf, 1); // 重新开启接收中断

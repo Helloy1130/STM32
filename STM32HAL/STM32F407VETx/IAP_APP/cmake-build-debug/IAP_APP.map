@@ -309,8 +309,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x90 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_ranges  0x00000000       0x80 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00000000      0xecb CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_str     0x00000000      0x890 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xed3 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x894 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x188 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .ARM.attributes
@@ -332,8 +332,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_ranges  0x00000000       0x28 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0xad3 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x685 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0xadb CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x689 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -365,8 +365,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_line    0x00000000      0x6e7 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x00000000      0x51d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x6ef CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x521 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xec CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -415,8 +415,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_line    0x00000000      0x80b CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x00000000      0x674 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x813 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x678 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x168 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -462,8 +462,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x98 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_ranges  0x00000000       0x88 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0x7c3 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x6c4 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0x7cb CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x6c8 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x170 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -475,8 +475,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x97 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x00000000      0x1e9 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000      0x30a CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x00000000      0x1ef CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000      0x30e CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
                 0x00000000       0x39 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -535,8 +535,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x4a4 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x661 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x4ac CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x665 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x128 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -562,8 +562,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x48 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_ranges  0x00000000       0x38 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x00000000      0x3bf CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000      0x52e CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00000000      0x3c7 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000      0x532 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000       0x90 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -1123,8 +1123,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x48 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
- .debug_line    0x00000000      0x110 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
- .debug_str     0x00000000      0x235 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+ .debug_line    0x00000000      0x112 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+ .debug_str     0x00000000      0x239 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .ARM.attributes
                 0x00000000       0x39 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
@@ -1167,8 +1167,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x90 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .debug_ranges  0x00000000       0xb8 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_line    0x00000000      0xc20 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_str     0x00000000      0xc6e CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_line    0x00000000      0xc28 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_str     0x00000000      0xc72 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .debug_frame   0x00000000      0x1a8 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .ARM.attributes
@@ -1300,8 +1300,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xe0 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .debug_ranges  0x00000000       0xd0 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
- .debug_line    0x00000000     0x16ad CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
- .debug_str     0x00000000      0xe16 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+ .debug_line    0x00000000     0x16b5 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+ .debug_str     0x00000000      0xe1a CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .comment       0x00000000       0x4d CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .debug_frame   0x00000000      0x380 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .ARM.attributes
@@ -2872,93 +2872,93 @@ LOAD c:/progra~1/stmicr~1/stm32c~1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/9.3.1/t
  .debug_ranges  0x00001090      0x328 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .debug_ranges  0x000013b8       0xd8 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_line     0x00000000    0x15996
- .debug_line    0x00000000      0x559 CMakeFiles/IAP_APP.elf.dir/Core/Src/freertos.c.obj
- .debug_line    0x00000559      0x2d9 CMakeFiles/IAP_APP.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000832      0x4e9 CMakeFiles/IAP_APP.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00000d1b      0x288 CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000fa3      0x375 CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
- .debug_line    0x00001318      0x36e CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x00001686      0x4c4 CMakeFiles/IAP_APP.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00001b4a      0x1ed CMakeFiles/IAP_APP.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00001d37      0x332 CMakeFiles/IAP_APP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x00002069      0x408 CMakeFiles/IAP_APP.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x00002471       0xb1 CMakeFiles/IAP_APP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
- .debug_line    0x00002522      0x5ff CMakeFiles/IAP_APP.elf.dir/Core/User/InFlash/InFlash.c.obj
- .debug_line    0x00002b21      0x2ea CMakeFiles/IAP_APP.elf.dir/Core/User/LED/LED.c.obj
- .debug_line    0x00002e0b      0x609 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00003414      0x846 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00003c5a      0x7cd CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00004427      0xbdc CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00005003      0x6ae CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_line    0x000056b1     0x376b CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00008e1c     0x1297 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x0000a0b3     0x1d0d CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000bdc0     0x2df6 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_line    0x0000ebb6      0x4db CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x0000f091      0x770 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x0000f801      0x312 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj
- .debug_line    0x0000fb13     0x2156 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x00011c69     0x2d70 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x000149d9      0xfbd CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.debug_line     0x00000000    0x15a70
+ .debug_line    0x00000000      0x569 CMakeFiles/IAP_APP.elf.dir/Core/Src/freertos.c.obj
+ .debug_line    0x00000569      0x2e1 CMakeFiles/IAP_APP.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x0000084a      0x4f5 CMakeFiles/IAP_APP.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000d3f      0x290 CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000fcf      0x37d CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+ .debug_line    0x0000134c      0x376 CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x000016c2      0x4c6 CMakeFiles/IAP_APP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00001b88      0x1ef CMakeFiles/IAP_APP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00001d77      0x33a CMakeFiles/IAP_APP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x000020b1      0x412 CMakeFiles/IAP_APP.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x000024c3       0xb3 CMakeFiles/IAP_APP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+ .debug_line    0x00002576      0x607 CMakeFiles/IAP_APP.elf.dir/Core/User/InFlash/InFlash.c.obj
+ .debug_line    0x00002b7d      0x2f2 CMakeFiles/IAP_APP.elf.dir/Core/User/LED/LED.c.obj
+ .debug_line    0x00002e6f      0x611 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00003480      0x84e CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00003cce      0x7d5 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x000044a3      0xbe4 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00005087      0x6b6 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000573d     0x3773 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00008eb0     0x129f CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000a14f     0x1d15 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000be64     0x2e00 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_line    0x0000ec64      0x4e3 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x0000f147      0x776 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x0000f8bd      0x318 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj
+ .debug_line    0x0000fbd5     0x215e CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x00011d33     0x2d78 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x00014aab      0xfc5 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_str      0x00000000     0x72bb
- .debug_str     0x00000000      0x816 CMakeFiles/IAP_APP.elf.dir/Core/Src/freertos.c.obj
-                                0x876 (size before relaxing)
- .debug_str     0x00000816      0x1a0 CMakeFiles/IAP_APP.elf.dir/Core/Src/gpio.c.obj
-                                0x4a8 (size before relaxing)
- .debug_str     0x000009b6      0x7d1 CMakeFiles/IAP_APP.elf.dir/Core/Src/main.c.obj
-                                0xc0a (size before relaxing)
- .debug_str     0x00001187      0x55b CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                                0x8fa (size before relaxing)
- .debug_str     0x000016e2      0x13e CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
-                                0xe7b (size before relaxing)
- .debug_str     0x00001820       0xdd CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                0x79f (size before relaxing)
- .debug_str     0x000018fd      0x614 CMakeFiles/IAP_APP.elf.dir/Core/Src/syscalls.c.obj
-                                0x85f (size before relaxing)
- .debug_str     0x00001f11       0xa1 CMakeFiles/IAP_APP.elf.dir/Core/Src/sysmem.c.obj
-                                0x676 (size before relaxing)
- .debug_str     0x00001fb2       0xdb CMakeFiles/IAP_APP.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                                0x473 (size before relaxing)
- .debug_str     0x0000208d       0x9f CMakeFiles/IAP_APP.elf.dir/Core/Src/usart.c.obj
-                                0x920 (size before relaxing)
- .debug_str     0x0000212c       0x62 CMakeFiles/IAP_APP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
-                                 0xa3 (size before relaxing)
- .debug_str     0x0000218e      0x1ff CMakeFiles/IAP_APP.elf.dir/Core/User/InFlash/InFlash.c.obj
-                                0x8f5 (size before relaxing)
- .debug_str     0x0000238d       0x43 CMakeFiles/IAP_APP.elf.dir/Core/User/LED/LED.c.obj
-                                0x36f (size before relaxing)
- .debug_str     0x000023d0      0x299 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                0xc05 (size before relaxing)
- .debug_str     0x00002669      0x42c CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                0xd44 (size before relaxing)
- .debug_str     0x00002a95      0x143 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                0x60a (size before relaxing)
- .debug_str     0x00002bd8      0x17a CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                0x7e8 (size before relaxing)
- .debug_str     0x00002d52      0x1a5 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
-                                0x5d6 (size before relaxing)
- .debug_str     0x00002ef7      0xe22 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                               0x15e7 (size before relaxing)
- .debug_str     0x00003d19      0x574 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                                0xdff (size before relaxing)
- .debug_str     0x0000428d      0x547 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                                0xd4b (size before relaxing)
- .debug_str     0x000047d4     0x1267 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
-                               0x1d8e (size before relaxing)
- .debug_str     0x00005a3b      0x165 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                                0x756 (size before relaxing)
- .debug_str     0x00005ba0      0x28e CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                                0x4dc (size before relaxing)
- .debug_str     0x00005e2e       0x8b CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj
-                                0x688 (size before relaxing)
- .debug_str     0x00005eb9      0x634 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                               0x1152 (size before relaxing)
- .debug_str     0x000064ed      0x8cc CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                               0x16f6 (size before relaxing)
- .debug_str     0x00006db9      0x502 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-                               0x107e (size before relaxing)
+.debug_str      0x00000000     0x72f5
+ .debug_str     0x00000000      0x81a CMakeFiles/IAP_APP.elf.dir/Core/Src/freertos.c.obj
+                                0x87a (size before relaxing)
+ .debug_str     0x0000081a      0x1a2 CMakeFiles/IAP_APP.elf.dir/Core/Src/gpio.c.obj
+                                0x4ac (size before relaxing)
+ .debug_str     0x000009bc      0x7d3 CMakeFiles/IAP_APP.elf.dir/Core/Src/main.c.obj
+                                0xc0e (size before relaxing)
+ .debug_str     0x0000118f      0x55d CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                                0x8fe (size before relaxing)
+ .debug_str     0x000016ec      0x140 CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+                                0xe7f (size before relaxing)
+ .debug_str     0x0000182c       0xdf CMakeFiles/IAP_APP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                0x7a3 (size before relaxing)
+ .debug_str     0x0000190b      0x616 CMakeFiles/IAP_APP.elf.dir/Core/Src/syscalls.c.obj
+                                0x863 (size before relaxing)
+ .debug_str     0x00001f21       0xa3 CMakeFiles/IAP_APP.elf.dir/Core/Src/sysmem.c.obj
+                                0x67a (size before relaxing)
+ .debug_str     0x00001fc4       0xdd CMakeFiles/IAP_APP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                                0x477 (size before relaxing)
+ .debug_str     0x000020a1       0xa1 CMakeFiles/IAP_APP.elf.dir/Core/Src/usart.c.obj
+                                0x924 (size before relaxing)
+ .debug_str     0x00002142       0x64 CMakeFiles/IAP_APP.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+                                 0xa7 (size before relaxing)
+ .debug_str     0x000021a6      0x201 CMakeFiles/IAP_APP.elf.dir/Core/User/InFlash/InFlash.c.obj
+                                0x8f9 (size before relaxing)
+ .debug_str     0x000023a7       0x45 CMakeFiles/IAP_APP.elf.dir/Core/User/LED/LED.c.obj
+                                0x373 (size before relaxing)
+ .debug_str     0x000023ec      0x29b CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                0xc09 (size before relaxing)
+ .debug_str     0x00002687      0x42e CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                0xd48 (size before relaxing)
+ .debug_str     0x00002ab5      0x145 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                0x60e (size before relaxing)
+ .debug_str     0x00002bfa      0x17c CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                0x7ec (size before relaxing)
+ .debug_str     0x00002d76      0x1a7 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+                                0x5da (size before relaxing)
+ .debug_str     0x00002f1d      0xe24 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                               0x15eb (size before relaxing)
+ .debug_str     0x00003d41      0x576 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                                0xe03 (size before relaxing)
+ .debug_str     0x000042b7      0x549 CMakeFiles/IAP_APP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                                0xd4f (size before relaxing)
+ .debug_str     0x00004800     0x1269 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+                               0x1d92 (size before relaxing)
+ .debug_str     0x00005a69      0x167 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                                0x75a (size before relaxing)
+ .debug_str     0x00005bd0      0x290 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                                0x4e0 (size before relaxing)
+ .debug_str     0x00005e60       0x8d CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj
+                                0x68c (size before relaxing)
+ .debug_str     0x00005eed      0x636 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                               0x1156 (size before relaxing)
+ .debug_str     0x00006523      0x8ce CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                               0x16fa (size before relaxing)
+ .debug_str     0x00006df1      0x504 CMakeFiles/IAP_APP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+                               0x1082 (size before relaxing)
 
 .comment        0x00000000       0x4c
  .comment       0x00000000       0x4c CMakeFiles/IAP_APP.elf.dir/Core/Src/freertos.c.obj

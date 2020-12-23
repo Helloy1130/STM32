@@ -1,3 +1,3 @@
-E:/Projects/MCU/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/IAP_APP.elf.dir
-E:/Projects/MCU/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Projects/MCU/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Projects/STM32/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/IAP_APP.elf.dir
+E:/Projects/STM32/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Projects/STM32/STM32HAL/STM32F407VETx/IAP_APP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

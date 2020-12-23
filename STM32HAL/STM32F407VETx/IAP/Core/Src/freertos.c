@@ -269,18 +269,20 @@ void StartKeyTask(void *argument)
 void StartUartTask(void *argument)
 {
   /* USER CODE BEGIN StartUartTask */
-
+    uint32_t tick = osKernelGetTickCount();
     /* Infinite loop */
     for (;;) {
         if (recv_tick > 0 && osKernelGetTickCount() - recv_tick >= 500) {
             recv_tick = 0;
-            pBuf = rx1_buf;
+            update_tick = 0;
 
             HAL_UART_AbortReceive_IT(&huart1);
             printf("Receive end.\r\n");
-
             //Ð´ÈëAPP
-
+            WriteFlash(rx1_buf, (uint8_t *)USER_APP_ADDR, pBuf - rx1_buf);
+            pBuf = rx1_buf;
+            //Ìø×ªAPP
+            JumpAPP(USER_APP_ADDR);
         }
 
         if (update_tick > 0 && osKernelGetTickCount() - update_tick >= 10 * 1000){
@@ -288,6 +290,10 @@ void StartUartTask(void *argument)
 
             HAL_UART_AbortReceive_IT(&huart1);
             printf("Exit update mode after 10 seconds.\r\n");
+            tick = osKernelGetTickCount();
+        } else if (update_tick == 0 && osKernelGetTickCount() - tick >= 10 * 1000){
+            printf("Auto jump to APP\r\n");
+            JumpAPP(USER_APP_ADDR);
         }
         osDelay(1);
     }
